@@ -1,0 +1,38 @@
+body, html{
+	width: 100%;
+	height: 100%;
+}
+body {
+	font-family: 'Patua One', cursive;
+}
+
+hr {
+	max-width: 65px;
+	border-width: 3px;
+	border-color: #F05F44;
+}
+
+.faded {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+header.monsters {
+	background-position: center;
+	background-image: url("image.jpg");
+	background-size: cover;
+	height: 100%;
+
+}
+
+
+header.monsters hr {
+   margin-top: 200px;
+   margin-bottom: 30px;
+}
+
+
+header.monsters h1 {
+   font-size: 2rem;
+}
+
+
